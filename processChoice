@@ -1,0 +1,28 @@
+// Processes the user's choice from the menu
+    public static void processChoice(int choice) {
+        switch (choice) {
+            // Toggle the engine state
+            case 1:
+                toggleEngine();
+                break;
+            // Change the gear
+            case 2:
+                changeGear();
+                break;
+            // Accelerate the car
+            case 3:
+                accelerate();
+                break;
+            // Apply the brakes
+            case 4:
+                brake();
+                break;
+            // Exit/Terminate the simulation
+            case 5:
+                exitSimulation();
+                break;
+            // Handle the invalid choice (Any other input from the user except choices given above)
+            default:
+                System.out.println("Invalid choice. Please try again.");
+        }
+    }
