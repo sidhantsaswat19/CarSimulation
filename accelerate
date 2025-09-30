@@ -1,0 +1,9 @@
+// Please implement accelerate() function that accelerates the car based on the condition.
+    public static void accelerate() {
+        // Add condition to check if the engine is on and the gear is not in Park (P)
+        if (isEngineOn && (gear != "P")) {
+            speed += 10;// Once the condition is satisfied, increase speed by 10
+        } else {
+            System.out.println("Acceleration is not possible!!");// If the condition is not met, print a message stating acceleration is not possible
+        }
+    }
