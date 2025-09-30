@@ -1,0 +1,8 @@
+// getUserChoice function has a return type int which stores the input received from the user
+    public static int getUserChoice() {
+        // Gets the user's choice from the menu
+        System.out.print("Enter your choice: ");
+        // Return the user's choice as an integer
+        return keyBoard.nextInt();
+    }
+    
