@@ -1,0 +1,7 @@
+// Please implement exitSimulation() function that terminates the simulation
+    public static void exitSimulation() {
+        System.out.println("Thank you for Driving!!");// Print an informative message about exiting the simulation here
+        System.exit(0);
+        // Terminate the driving simulation
+
+    }
