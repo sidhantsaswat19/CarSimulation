@@ -1,0 +1,4 @@
+// Please implement toggleEngine() method which toggles the engine state, either turning it on or off
+    public static void toggleEngine() {
+        isEngineOn = !isEngineOn;
+    }
