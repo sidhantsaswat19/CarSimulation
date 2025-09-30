@@ -1,0 +1,15 @@
+// Starts the car simulation
+    public static void startSimulation() {
+        // Variable to control the display of the menu
+        boolean displayMenu = true;
+        // Until the variable displayMenu is true this block will be executed
+        while (displayMenu) {
+            //  Invoking displayDashboard method to showcase the current state of the car.
+            displayDashboard();
+            // Get the user choice
+            int choice = getUserChoice();
+            // Calling processChoice method by passing above integer as a parameter
+            processChoice(choice);
+            System.out.println();
+        }
+    }
