@@ -1,0 +1,6 @@
+    // Please implement changeGear() method that allows changing the gear according to user input
+    public static void changeGear() {
+        System.out.println("Please enter your desired gear(P,D,R):");
+        gear = keyBoard.next();
+        // Print a message here to ask for an input from user
+    }
